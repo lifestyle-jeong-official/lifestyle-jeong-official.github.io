@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lifestyle_Start</title>
+<style>
+  :root {
+    --bg: #0f0f0f;
+    --card: #1c1c1c;
+    --card-hover: #292929;
+    --text: #ffffff;
+    --muted: #a0a0a0;
+    --accent: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 48px 20px;
+  }
+  .container { width: 100%; max-width: 460px; text-align: center; }
+  .avatar {
+    width: 88px; height: 88px; border-radius: 50%;
+    background: #333; margin: 0 auto 16px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 32px;
+  }
+  h1 { font-size: 20px; margin: 0 0 6px; }
+  .bio { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+  .ig-link {
+    display: inline-flex; align-items: center; gap: 6px;
+    color: var(--text); text-decoration: none; font-size: 14px;
+    margin-bottom: 28px; opacity: 0.85;
+  }
+  .link-card {
+    display: block;
+    background: var(--card);
+    color: var(--text);
+    text-decoration: none;
+    padding: 16px 20px;
+    border-radius: 14px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: background 0.15s ease, transform 0.1s ease;
+    border: 1px solid #2a2a2a;
+  }
+  .link-card:hover { background: var(--card-hover); transform: translateY(-1px); }
+  .empty { color: var(--muted); font-size: 14px; padding: 24px 0; }
+  footer { margin-top: 32px; color: #555; font-size: 12px; }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="avatar">🛍️</div>
+    <h1>Lifestyle_Start</h1>
+    <p class="bio">삶의 질 상승템 추천!!</p>
+    <a class="ig-link" href="https://www.instagram.com/lifestyle_jeong" target="_blank" rel="noopener">📷 Instagram</a>
+    <div class="links">
+      <a class="link-card" href="https://link.coupang.com/a/egF1kTUTAG" target="_blank" rel="noopener">
+        AHC 선스틱(SPF50+ PA++++, 14g)
+      </a>
+      <a class="link-card" href="https://link.coupang.com/a/gMRB5qFTDE" target="_blank" rel="noopener">
+        투드래곤 일자형 다용도 접착식 케이블 정리 홀더 10P, 10개
+      </a>
+      <a class="link-card" href="https://link.coupang.com/a/gMRD0HAGmy" target="_blank" rel="noopener">
+        홈플래닛 무드 라이팅 미스트 분사 미니 가습기 600ml, 화이트, LLD-J261
+      </a>
+      <a class="link-card" href="https://link.coupang.com/a/gMRvseZrNI" target="_blank" rel="noopener">
+        코멧 홈 BPA FREE 프레시 실리콘 스탠딩 지퍼백, 퍼플, 3개
+      </a>
+    </div>
+    <footer>이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</footer>
+  </div>
+</body>
+</html>
